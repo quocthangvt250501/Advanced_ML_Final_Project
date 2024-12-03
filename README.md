@@ -3,11 +3,15 @@ In the realm of analog integrated circuit (IC) design, the operational amplifier
 
 Addressing these challenges, in this project, we propose a black-box machine learning (ML) model called Extreme Gradient Boosting (XGBoost) to capture the relationship between component parameters and performance metrics in op-amp circuits. After training the black-box model, we employ an explainable artificial intelligence (XAI) technique called Shapley Additive Explanations (SHAP) to analyze how each component parameter impacts specific performance metrics, thereby providing actionable design insights. Additionally, this study incorporates transfer learning to bridge knowledge from TSMC N65 to the SKY130 technology node, facilitating efficient design adaptation to a new technology node.
 
-Structure of this repository
+Structure of this repository:
 1. Folder 'Dataset': Containing the dataset used for training.
 2. File 'Group35_Project.ipynb': Code of this project.
 3. File 'Op-amp's schematic.png': Schematic of the employed op-amp circuit.
 
+Main information of the project:
+1. Language: Python
+2. Libraries: pandas, numpy, sklearn, xgboost, shap, matplotlib.
+3. Dataset: TSMC N65, SKY130
 
 Contributor:
 1. XiaoFeng Kuang - 2017365584​

@@ -13,6 +13,6 @@ Main information of the project:
 2. Libraries: pandas, numpy, sklearn, xgboost, shap, matplotlib.
 3. Dataset: TSMC N65, SKY130
 
-Contributor:
+Contributors:
 1. XiaoFeng Kuang - 2017365584​
 2. Nguyen Quoc Thang - 202396764
